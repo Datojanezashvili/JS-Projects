@@ -1,0 +1,15 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: verdana;
+}
+
+#myButton {
+    font-size: 5em;
+    border-radius: 10px;
+    padding: 20px;
+}
+#myLabel {
+    font-size: 4em;
+    
+}

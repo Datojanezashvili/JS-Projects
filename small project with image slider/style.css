@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(1, 1, 20);
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+}   
+
+img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+img:hover {
+    width: 400px;
+    cursor: pointer;
+}

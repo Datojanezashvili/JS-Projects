@@ -1,0 +1,103 @@
+/* font */
+
+@font-face {
+  font-family: myFont;
+  src: url(EgyptienneZierinitialien-Rpj6.ttf);
+}
+
+
+/* one rule in whole page */
+* {
+    padding: 0;
+    margin: 0;
+  font-family: myFont;
+}
+
+/* body part where we wrote and use flex */
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main part which contain child div's */
+
+main {
+  display: flex;
+  gap: 350px;
+  text-align: center;
+  justify-content: space-around;
+  position: relative;
+  left: 180px;
+}
+
+/* player's title */
+
+#playerOneTitle, #playerTwoTitle {
+  position: relative;
+  top: -20px;
+  letter-spacing: 2px;
+  color: azure;
+  font-size: 1.3rem;
+}
+
+/* title too */
+
+#title {
+  position: absolute;
+  top: 150px;
+  left: 780px;
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  letter-spacing: 1px;
+}
+
+#secondHalfTitle {
+  position: relative;
+  left: -240px;
+}
+
+/* Buttons */
+
+
+#rollBtn, #resetBtn,#inputUrName {
+  position: relative;
+  top: 30%;
+  left: -17.5%;
+  width: 150px;
+  height: 70px;
+  border: 3px solid rgb(45, 19, 19);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin: 30px; 
+  background-color: rgb(140, 57, 57);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#rollBtn:hover  ,#resetBtn:hover, #inputUrName:hover{
+  border-color: white;
+  transform: scale(1.1);
+  background-color: rgb(182, 88, 88);
+}
+
+#inputUrName {
+  position: relative;
+  top: 41%;
+  left: -35.6%;
+  width: 200px;
+  font-size: 1.1rem;
+  border-color: rgb(45, 19, 19);
+} 
+
+
+/* images position */
+#playerOne, #playerTwo {
+  position: relative;
+  left: 17%;
+}
+
+/* greater than img style */
+

@@ -1,0 +1,85 @@
+/* One command for website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav style */
+
+.nav {
+    width: 99.99%;
+    background-color: #f8f8f8;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 5px;
+    display: flex;
+    height: 70px;
+}  
+
+/* paragraph style/position */
+
+p {
+    margin-left: 30%;
+    margin-top: 22px;
+}
+
+.color-flipper {
+    color: #3795e8;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+
+.hex {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* Second Div style/position */
+
+.second-parent-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.child-div-p {
+    font-size: 2.5em;
+    white-space: pre;
+    margin-top:  -50px;
+    background-color: #242124;  
+    width: 600px;
+    height: 70px;
+    padding-top: 12px;
+    padding-left: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+
+button {
+    position: relative;
+    top: 60px;
+    left: -370px;
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: .5s;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
